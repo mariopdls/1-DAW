@@ -16,8 +16,8 @@ git config --global user.email "tu_correo@ejemplo.com"
 
 Para actualizar el repositorio git, seguir estos comandos:
 
-git add MARCAS<br>
-git commit -m "Mensaje correcto para MARCAS"<br>
+git add .<br>
+git commit -m "Mensaje del commit"<br>
 git push origin main
 
 ----------------------------------------
@@ -46,8 +46,8 @@ git config --global user.email "your_email@example.com"
 
 To update (upload changes to) the Git repository, use these commands:
 
-git add MARCAS <br>
-git commit -m "Correct message for MARCAS"<br>
+git add . <br>
+git commit -m "your commit"<br>
 git push origin main
 
 ----------------------------------------
