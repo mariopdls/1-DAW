@@ -1,0 +1,42 @@
+Ejercicio 4
+
+- En la línea 3, el atributo de id=101 no va entre comillas, debería ir al ser un atributo.
+- En la linea 7 no se cierra la etiqueta final stock, debería ser una etiqueta cerrada.
+- Después de la línea 14 se debería haber cerrado el producto de la id="102".
+- En la línea 20 parece que la etiqueta del fin < descripción > lleva tilde, mientras que el resto no.
+- Mientras en el ultimo producto pone unidades, en el resto no. Debería estar unificado el contenido de esa etiqueta.
+
+
+CODIGO CORREGIDO
+<?xml version="1.0" enconding="UTF-8"?>
+
+<productos>
+    <producto id="101">
+        <nombre> Portatil HP Pavilion </nombre>
+        <categoria>Ordenadores </categoria>
+        <precio moneda="EUR"> 899.99</precio>
+        <stock> 15 unidades </stock>
+        <descripcion> Portátil con pantalla de 15,6'' y procesador Intel i7</descripcion>
+    
+        <producto id="102">
+        <nombre> Móvil Samsung Galaxy S24 </nombre>
+        <categoria>Moviles </categoria>
+        <precio moneda="EUR"> 1099.50</precio>
+        <stock> 20 unidades </stock>
+        <descripcion> Movil de alta gama con cámara 200MP y pantalla AMOLED</descripcion>
+
+        <producto id="103">
+        <nombre> Tablet Apple Ipad </nombre>
+        <categoria>Tablets </categoria>
+        <precio moneda="EUR"> 599.00</precio>
+        <stock> 10 unidades </stock>
+        <descripcion> Tablet con chip M2 y pantalla Liquid Retina</descripcion>
+
+        <producto id="104">
+        <nombre> Monitor LG UltraWide </nombre>
+        <categoria>Monitores </categoria>
+        <precio moneda="EUR"> 299.99</precio>
+        <stock> 25 unidades </stock>
+        <descripcion> Monitor de 34 pulgadas con resolución 2560x1080</descripcion>
+    </producto>
+</productos>

@@ -1,0 +1,45 @@
+{
+    "Productos":[{
+        "Producto":{
+            "Nombre": "Portátil HP Pavilion",
+            "Categoría":"Ordenadores",
+            "Precio":{
+                "Moneda": "EUR",
+                "Texto": "899.99"
+            },
+            "Stock": "15 unidades",
+            "Descripción": "Portátil con pantalla de 15,6 pulgadas y procesador Intel i7"
+        },
+        "Producto2":{
+            "Nombre": "Móvil Samsung Galaxy S24",
+            "Categoría":"Móviles",
+            "Precio":{
+                "Moneda": "EUR",
+                "Texto": "1099.50"
+            },
+            "Stock": "20 unidades",
+            "Descripción": "Movil de alta gama con cámara 200 MP y pantalla AMOLED"
+        },
+        "Producto3":{
+            "Nombre": "Tablet Apple Ipad",
+            "Categoría":"Tablets",
+            "Precio":{
+                "Moneda": "EUR",
+                "Texto": "599.00"
+            },
+            "Stock": "10 unidades",
+            "Descripción": "Tablet con chip M2 y pantalla Liquid Retina"
+        },
+        
+        "Producto4":{
+            "Nombre": "Monitor LG UltraWide",
+            "Categoría":"Monitores",
+            "Precio":{
+                "Moneda": "EUR",
+                "Texto": "299,99"
+            },
+            "Stock": "25 unidades",
+            "Descripción": "Monitor de 34 pulgadas con resolución 2560x1080"
+        }
+    }]
+}

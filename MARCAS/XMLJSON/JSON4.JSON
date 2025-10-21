@@ -1,0 +1,37 @@
+{
+    "Cursos":{
+        "Curso":[{
+            "Id": "0001",
+            "Nombre":{
+                "Texto": "Programación en Java",
+                "Lenguaje_curso": "Java"
+            },
+            "Horas":"190",
+            "Modalidad": "Online",
+            "Profesor": "David Rodriguez Cano"
+        
+        },
+        {
+            "Id": "0002",
+            "Horas": "200",
+            "Modalidad": "Presencial",
+            "Profesor": "Cayetano Villegas Tolmo"
+
+        },
+        
+        {
+            "Id": "0003",
+            "Nombre":{
+                "Texto": "Programación en Python",
+                "Lenguaje_curso": "Python"
+            },
+            "Horas": "190",
+            "Modalidad": "Online",
+            "Profesor": "Paula Villanueva Barrientos"
+
+        }
+
+        ]
+
+    }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" enconding="UTF-8"?>
+
+<tienda>
+    <productos>
+        <moviles>
+            <Samsung>
+                <telefono tipo="galaxyS21"> Samsung Galaxy S21 </telefono>
+                    <precio> 799€ </precio>
+                    <stock> 50 unidades </stock>
+            </Samsung>
+            <Iphone>
+                <telefono tipo="13"> Iphone 13 </telefono>
+                    <precio> 999€ </precio>
+                    <stock> 30 unidades </stock>
+            </Iphone>
+        </moviles>
+
+        <portatiles>
+            <Apple>
+                <Macbook tipomcbook="pro"> MacBook Pro </MacBook>
+                    <precio> 1499€ </precio>
+                    <stock> 20 unidades </stock>
+            </Apple>
+            <Dell>
+                <dellportatil tipoportatil="XPS13"> Dell XPS 13 </dellportatil>
+                    <precio> 1200€ </precio>
+                    <stock> 15 unidades </stock>
+            </Dell>
+        </portatiles>
+    </productos>
+</tienda>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+
+<cursos>
+    <curso>
+        <id> 0001 </id>
+        <nombre lenguaje_curso="Java"> Programación en Java </nombre>
+        <horas> 190 </horas>
+        <modalidad> Online </modalidad>
+        <profesor> David Rodriguez Cano </profesor>
+    </curso>
+
+    <curso>
+        <id> 0002 </id>
+        <nombre> Sistemas Informáticos </nombre>
+        <horas> 200 </horas>
+        <modalidad> Presencial </modalidad>
+        <profesor> Cayetano Villegas Tolmo </profesor>
+    </curso>
+
+    <curso>
+        <id> 0003 </id>
+        <nombre lenguaje_curso="Python"> Programación en Python </nombre>
+        <horas> 190 </horas>
+        <modalidad> Online </modalidad>
+        <profesor> Paula Villanueva Barrientos </profesor>
+
+    </curso>
+
+</cursos>
