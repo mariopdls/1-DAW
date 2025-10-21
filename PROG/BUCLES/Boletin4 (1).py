@@ -161,52 +161,102 @@
 # #ej8
 
 # num = int(input("Dame el primer número: "))
-# # num2 = int(input("Dame el segundo número: "))
+# num2 = int(input("Dame el segundo número: "))
 
-# # acum = 0 
-# # i = 0
-# # if num>0 and num2>0:
-# #     if num<num2:
-# #         while i < num2:
-# #              acum += num  # Sumamos num al total
-# #              i += 1        # Incrementamos el contador
-# #              print(f"El producto de {num} x {num2} es {acum}")
-# #     elif num2<num:
-# #             while i < num2:
-# #                  acum += num  
-# #                  i += 1       
-# #                  print(f"El producto de {num2} x {num} es {acum}")
-# # elif num>0 and num2<0:
+# acum = 0 
+# i = 0
+# if num>0 and num2>0:
+#     if num<num2:
+#         while i < num2:
+#              acum += num  # Sumamos num al total
+#              i += 1        # Incrementamos el contador
+#              print(f"El producto de {num} x {num2} es {acum}")
+#     elif num2<num:
+#             while i < num2:
+#                  acum += num  
+#                  i += 1       
+#                  print(f"El producto de {num2} x {num} es {acum}")
+# elif num>0 and num2<0:
 
-# # #hacer en negativo
+# #hacer en negativo
 
 # #ej9
 
-# # num = int(input("Dame el primer número: "))
-# # num2 = int(input("Dame el segundo número: "))
-# # i=0
-# # total=num
-# # while total>=num2:
-# #     i+=1
-# #     total=num-(num2*i)
-# # print (f"el módulo de {num} y {num2} es {total}") 
+# num = int(input("Dame el primer número: "))
+# num2 = int(input("Dame el segundo número: "))
+# i=0
+# total=num
+# while total>=num2:
+#     i+=1
+#     total=num-(num2*i)
+# print (f"el módulo de {num} y {num2} es {total}") 
 
-# #ej10
+# # #ej10
 
 # cant_num = int(input("¿Cuántos números quieres introducir?: "))
-# variable1=0
-# suma=0
-# cant_máxima=0
-# cant_minima=0
-# while cant_num<0:
-#     cant_num = int(input("¿Cuántos números quieres introducir?: "))
-# for i in range (1,cant_num+1):
-#     variable1=(int(input("Dime un número")))
-#     suma=variable1+variable1
-#     if variable1>cant_máxima:
-#         cant_máxima=variable1
-# media=suma/cant_num
-# print(f"la media de los {cant_num} números es {media}")
-# print (f"el número mayor es {cant_máxima}")
-# print (f" el numero menor es {cant_minima}")
+# while cant_num <= 0:
+#     cant_num = int(input("Debe ser un entero positivo. ¿Cuántos números?: "))
 
+# suma = 0
+
+# for i in range(1, cant_num + 1):
+#     n = int(input("Dime un número: "))
+#     suma += n
+
+#     if i == 1: 
+#         cant_maxima = n
+#         cant_minima = n
+#     else:
+#         if n > cant_maxima:
+#             cant_maxima = n
+#         if n < cant_minima:
+#             cant_minima = n
+
+# media = suma / cant_num
+# print(f"La media de los {cant_num} números es {media}")
+# print(f"El número mayor es {cant_maxima}")
+# print(f"El número menor es {cant_minima}")
+
+# #ej11
+#Centrado: espacios delante = num − f.
+
+# for f in range (1,num+1):
+#     espacio=num-f
+#     print (' '* espacio +'*'*(2*f-1))
+
+# #ej12
+
+# num=int(input("Dame un número: "))
+# acum=0
+# while num<=0:
+#     num=int(input("Dame un número positivo: "))
+# else:
+#     for i in range (1,num):
+#         if num%i==0:
+#             acum+=i
+
+# if acum==num:
+#     print ("El número es perfecto")
+# else:
+# #     print ("es imperfecto")
+
+# num=int(input('Introduce el número de términos: '))
+# suma=0
+# simbolo='+'
+
+# for i in range (1,num+1):
+#     suma+=1/i
+#     print (f"1/{i}"), print (simbolo)
+# print (f"la suma de todos es {(suma)}")
+
+# #ej15
+
+# num=int(input('Introduce el número: '))
+# factorial=1
+# acum=0
+# if num==0:
+#     print ("Su factorial es 1")
+# else:
+#     for i in range (1,num+1):
+#         factorial*=i
+#         print (factorial)

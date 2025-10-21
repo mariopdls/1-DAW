@@ -38,5 +38,5 @@ CODIGO CORREGIDO
         <precio moneda="EUR"> 299.99</precio>
         <stock> 25 unidades </stock>
         <descripcion> Monitor de 34 pulgadas con resolución 2560x1080</descripcion>
-    </producto>
+    </producto> #cierra producto
 </productos>
