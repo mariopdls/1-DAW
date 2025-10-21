@@ -1,6 +1,6 @@
 
 ----------------------------------------
-SPANISH
+ESPAÑOL
 ----------------------------------------
 
 Para clonar un repositorio, seguir este comando:
@@ -16,8 +16,8 @@ git config --global user.email "tu_correo@ejemplo.com"
 
 Para actualizar el repositorio git, seguir estos comandos:
 
-git add MARCAS
-git commit -m "Mensaje correcto para MARCAS"
+git add MARCAS<br>
+git commit -m "Mensaje correcto para MARCAS"<br>
 git push origin main
 
 ----------------------------------------
@@ -25,6 +25,7 @@ git push origin main
 Para ir de un directorio a otro:
 
 cd directorio
+
 
 ----------------------------------------
 
