@@ -1,4 +1,4 @@
-Welcome to my first repository. I'm a begginer on Web Development.
+Welcome to my first repository. I'm a beginner on Web Development.
 This type of subjects isn't easy at all... but it's fun!
 
 I’m learning a lot of programming languages, but it never feels like enough
