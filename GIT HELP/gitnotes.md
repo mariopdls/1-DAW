@@ -14,11 +14,17 @@ git config --global user.email "tu_correo@ejemplo.com"
 
 ----------------------------------------
 
-Para actualizar el repositorio git, seguir estos comandos:
+Para actualizar el repositorio git de forma local a online, seguir estos comandos:
 
 git add .<br>
 git commit -m "Mensaje del commit"<br>
 git push origin main
+
+----------------------------------------
+
+Para actualizar repositorio local:
+
+git fetch
 
 ----------------------------------------
 

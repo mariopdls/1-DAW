@@ -41,4 +41,17 @@
 #ej5
 
 num=int(input("Dime un número: "))
+<<<<<<< HEAD
 num2=int(input("Dime un segundo número: "))
+=======
+cont=1
+for i in range (1,num+1):
+    cadena=""
+    for e in range (i):
+        cadena+= str(cont) + " "
+        cont+=1
+    print (cadena)
+
+#hacer binarii
+
+>>>>>>> 3e1c1353ca602cec60249155e9237ef4e61ae536
