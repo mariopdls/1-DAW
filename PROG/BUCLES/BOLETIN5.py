@@ -2,11 +2,13 @@
 
 #ej2
 num=int(input("Dime un número: "))
-cont=0
-cadena=""
-for i in range (0,num):
-    cont+=1
-    cadena+= str(cont) + ""
+cont=1
+for i in range (1,num+1):
+    cadena=""
+    for e in range (i):
+        cadena+= str(cont) + " "
+        cont+=1
     print (cadena)
 
-#SEGUIR
+#hacer binarii
+
