@@ -1,15 +1,16 @@
 # #EMPEZAR BOLETIN
 
-# #ej2
 # num=int(input("Dime un número: "))
-# cont=0
-# cadena=""
-# for i in range (0,num):
-#     cont+=1
-#     cadena+= str(cont) + ""
+# num2=int(input("Dime un segundo número: "))
+# cont=1
+# for i in range (1,num+1):
+#     cadena=""
+#     for e in range (i):
+#         cadena+= str(cont) + " "
+#         cont+=1
 #     print (cadena)
 
-#SEGUIR
+#SEGUIR con binario
 
 # #EJ3
 # x=(int(input("Dime el valor de x: ")))
@@ -40,18 +41,15 @@
 
 #ej5
 
-num=int(input("Dime un número: "))
-<<<<<<< HEAD
-num2=int(input("Dime un segundo número: "))
-=======
-cont=1
-for i in range (1,num+1):
-    cadena=""
-    for e in range (i):
-        cadena+= str(cont) + " "
-        cont+=1
-    print (cadena)
+#necesito un programa que pida dos numeros enteros y muestre los diez primeros multiplos del primero desde el segundo.
 
-#hacer binarii
+num1= int(input("Dime un número: "))
+num2= int(input("Dime un segundo número: "))
+contador=0
+for i in range (num2, num2*6):
+    while i%num1==0:
+        print (i)
+        i+=1
 
->>>>>>> 3e1c1353ca602cec60249155e9237ef4e61ae536
+    #ya tengo el programa que imprime 10 numeros desde el segundo numero. ahora tiene que mostrar los 10 primeros multiplos del primer numero
+    #2 y 5-> 6, 8, 10, 12, 14, 16, 18, 20 22 24
