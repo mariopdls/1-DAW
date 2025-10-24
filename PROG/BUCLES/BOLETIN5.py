@@ -43,13 +43,30 @@
 
 #necesito un programa que pida dos numeros enteros y muestre los diez primeros multiplos del primero desde el segundo.
 
-num1= int(input("Dime un número: "))
-num2= int(input("Dime un segundo número: "))
-contador=0
-for i in range (num2, num2*6):
-    while i%num1==0:
-        print (i)
-        i+=1
+# num1= int(input("Dime un número: "))
+# num2= int(input("Dime un segundo número: "))
+# contador=0
+# for i in range (num2, num2*6):
+#     while i%num1==0:
+#         print (i)
+#         i+=1
 
-    #ya tengo el programa que imprime 10 numeros desde el segundo numero. ahora tiene que mostrar los 10 primeros multiplos del primer numero
-    #2 y 5-> 6, 8, 10, 12, 14, 16, 18, 20 22 24
+#     #ya tengo el programa que imprime 10 numeros desde el segundo numero. ahora tiene que mostrar los 10 primeros multiplos del primer numero
+#     #2 y 5-> 6, 8, 10, 12, 14, 16, 18, 20 22 24
+
+#ej6
+
+# num= (int(input("Dime un número: ")))
+
+# for i in range (0, num, -1):
+
+
+# #num/2 es par
+# #num*3+1 si es impar
+
+
+def nombre_accion () :
+    print ("hola")
+    return
+
+print (nombre_accion())
