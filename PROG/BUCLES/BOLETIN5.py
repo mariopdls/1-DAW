@@ -39,20 +39,17 @@
 
 # print (contador)
 
-#ej5
+# ej5
 
-#necesito un programa que pida dos numeros enteros y muestre los diez primeros multiplos del primero desde el segundo.
+# necesito un programa que pida dos numeros enteros y muestre los diez primeros multiplos del primero desde el segundo.
 
-# num1= int(input("Dime un número: "))
-# num2= int(input("Dime un segundo número: "))
-# contador=0
-# for i in range (num2, num2*6):
-#     while i%num1==0:
-#         print (i)
-#         i+=1
-
-#     #ya tengo el programa que imprime 10 numeros desde el segundo numero. ahora tiene que mostrar los 10 primeros multiplos del primer numero
-#     #2 y 5-> 6, 8, 10, 12, 14, 16, 18, 20 22 24
+num1= int(input("Dime un número: "))
+num2= int(input("Dime un segundo número: "))
+contador=0
+for i in range (num2, num2*6):
+    while i%num1==0:
+        print (i)
+        i+=1
 
 #ej6
 
@@ -68,7 +65,7 @@
 
 
 #     #13 es impar, 13 (num) hace else
-#     #siguiente vuelta num=40
+#  https://github.com/mariopdls/1-DAW.git   #siguiente vuelta num=40
 #     # ¿como guardo el 40?
 
 # #ej7
@@ -108,7 +105,8 @@
 #          day=int(input("Dime el un día válido de febrero: "))
 
 # print (f"La fecha es {day}/{month}/{year}.")
-
+#     #ya tengo el programa que imprime 10 numeros desde el segundo numero. ahora tiene que mostrar los 10 primeros multiplos del primer numero
+#     #2 y 5-> 6, 8, 10, 12, 14, 16, 18, 20 22 24
 # #ahora añadir un dia mas
 
 # day+=1
@@ -159,21 +157,32 @@
 
 #ej9: XD
 
-# ej10
-edad=int(input("Di la edad: "))
+# # ej10
+# edad=int(input("Di la edad: "))
 
-dinero1=20
-dinero2=15
-dinerototal=0
-acum=0
+# dinero1=20
+# dinero2=0
+# dinerototal=0
+# acum=0
 
-while edad<=0 or edad>100:
-    edad=int(input("Di una edad válida: "))
-else:
-    for i in range(2, edad + 1, 2):   # solo años pares
-        dinerototal = dinero1 + dinero2   # nuevo dinero recibido (como Fibonacci)
-        dinero1 = dinero2
-        dinero2 = dinerototal
+# puzzle1=1
+# puzzle2=0
+# puzzlestotal=0
+# acum2=0
 
-        acum += dinerototal       # sumamos lo que recibe este año
-        print(i, "recibe", dinerototal, "y acumula", acum)
+# while edad<=0 or edad>100:
+#     edad=int(input("Di una edad válida: "))
+# else:
+#     if edad%2==0:
+#         for i in range(2, edad + 1, 2):   # solo años pares
+#             dinerototal= dinero1+dinero2
+#             acum+=dinerototal
+#             print (f"acumula {acum} y recibe {dinerototal}")
+#             dinero2+=15
+#     if edad%2 != 0:
+#         for i in range(1, edad + 1, 2):   # solo años impares
+#             puzzlestotal= puzzle1+puzzle2
+#             acum2+=puzzlestotal
+#             print (f"acumula {acum2} y recibe {puzzlestotal}")
+#             acum2+=puzzlestotal
+#             puzzle2 *= 2 
