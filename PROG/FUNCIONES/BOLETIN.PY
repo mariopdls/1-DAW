@@ -56,21 +56,90 @@
 
 #TAREACLASE DNI
 
-# def dni_num (dni): #define numero de dni
-#     letras= "TRWAEMYFPDXBIJZSQVHLCK" #todas las letras posibles de dni
-#     dni="00000000H" #string, cadena de texto
-#     resto=int(dni[:-1]%23) #calculo de resto, que yo lo hice con la formula de dividendo(cociente*divisor) pero sevillano usó mod23
-#     letras[resto] == dni [-1] #cualquiera de las letras que está, junto con el resultado del restro, es igual que el dni menos la letra
-#     len(dni)==8
-#     return letras  [int(dni[:-1])%23] == dni[-1]
+# LETRAS = "TRWAGMYFPDXBNJZSQVHLCKE"
 
+# def es_dni_valido(dni):
+#     valido = False
+
+#     if 8 <= len(dni) <= 9:
+#         resto = int(dni[:-1]) % 23
+#         letra = LETRAS[resto]
+#         valido = letra == dni[-1]
+
+#     return valido
+
+
+# def es_dni_valido_refactor(dni):
+#     return 8 <= len(dni) <= 9 and LETRAS[int(dni[:-1]) % 23] == dni[-1]
+
+
+# # Pruebas
+# assert(not es_dni_valido("1111111L"))
+# assert(not es_dni_valido("11111"))
+# assert(es_dni_valido("11111111H"))
+
+# assert(not es_dni_valido_refactor("1111111L"))
+# assert(not es_dni_valido_refactor("11111"))
+# assert(es_dni_valido_refactor("11111111H"))
 
 # #5
 
 # def charactersInString(cadena, caracter):
 #     cuenta = 0
-#     for i in cadena:          # usa otro nombre
-#         if i == caracter:     # compara
+#     for i in cadena.lower():          # usa otro nombre
+#         if i == caracter.lower():     # compara
 #             cuenta += 1
 #     return cuenta
 # print (charactersInString ("buenosdias","a"))
+
+
+# #  #6
+
+# def lowcaseinstrring(cadena):
+#     cuenta=0
+#     for i in cadena:  #bucle para que i cuente si es minuscula o no
+#         if i== i.lower():
+#             cuenta+=1
+#     return cuenta
+# print (lowcaseinstrring("HOLABuenosDIASquetal"))
+
+# #7
+
+# def numberinstring(cadena):
+#     cuenta=0
+#     for i in cadena:
+#         cadena
+#         if i=="0" or i=="1" or i=="2" or i=="3" or i=="4" or i=="5" or i=="6" or i=="7" or i=="8" or i=="9" or i=="0":
+#             cuenta+=1
+#     return cuenta
+# print (numberinstring("holabuenosdias-2-3-2-3"))
+
+#8
+
+# def palindromo (cadena):
+#     texto=""
+#     espacios=" "
+#     for i in range (len(cadena)-1, -1,-1): #para i en el rango de la longitud de cadena, empieza en -1, avanza hasta -1 con saltos de -1
+#         texto+=(cadena[i])
+#         if espacios in texto:
+
+#     if cadena==texto:
+#         print ("es palíndromo")
+#     else:
+#         print ("no es palindromo")
+#     return ""
+# print (palindromo ("se verlas al reves"))
+
+# # cadena="hola"
+# # lista_numeros=  [1,3,5,7,9]
+# # print (lista_numeros[0])
+
+# #crear lista 50 numeros pares
+
+lista=[]
+num=0
+for i in range (num,101):
+    if i%2==0:
+        lista.append (i)
+
+print (lista)
