@@ -112,34 +112,43 @@
 #         if i=="0" or i=="1" or i=="2" or i=="3" or i=="4" or i=="5" or i=="6" or i=="7" or i=="8" or i=="9" or i=="0":
 #             cuenta+=1
 #     return cuenta
-# print (numberinstring("holabuenosdias-2-3-2-3"))
+# print (numberinstring("holabuenosdias23323"))
 
-#8
+# #8
 
-# def palindromo (cadena):
-#     texto=""
-#     espacios=" "
-#     for i in range (len(cadena)-1, -1,-1): #para i en el rango de la longitud de cadena, empieza en -1, avanza hasta -1 con saltos de -1
-#         texto+=(cadena[i])
-#         if espacios in texto:
+def palindromo (cadena):
+    texto=""
+    espacios=" "
+    acum=""
+    acumcadena=""
+    for j in cadena:
+        if j != espacios:
+            acumcadena+=j
+    for i in range (len(cadena)-1, -1,-1): #para i en el rango de la longitud de cadena, empieza en -1, avanza hasta -1 con saltos de -1
+        texto+=(cadena[i])
+    for e in texto:
+        if e != espacios:
+            acum+=e
+    if acumcadena==acum:
+        print ("es palíndromo")
+    else:
+        print ("no es palindromo")
+    return ""
+print (palindromo ("se es o no se es"))
 
-#     if cadena==texto:
-#         print ("es palíndromo")
-#     else:
-#         print ("no es palindromo")
-#     return ""
-# print (palindromo ("se verlas al reves"))
 
-# # cadena="hola"
-# # lista_numeros=  [1,3,5,7,9]
-# # print (lista_numeros[0])
+#CLASE
 
-# #crear lista 50 numeros pares
+# cadena="hola"
+# lista_numeros=  [1,3,5,7,9]
+# print (lista_numeros[0])
 
-lista=[]
-num=0
-for i in range (num,101):
-    if i%2==0:
-        lista.append (i)
+# # #crear lista 50 numeros pares
 
-print (lista)
+# lista=[]
+# num=0
+# for i in range (num,101):
+#     if i%2==0:
+#         lista.append (i)
+
+# print (lista)
