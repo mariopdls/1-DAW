@@ -116,25 +116,25 @@
 
 # #8
 
-def palindromo (cadena):
-    texto=""
-    espacios=" "
-    acum=""
-    acumcadena=""
-    for j in cadena:
-        if j != espacios:
-            acumcadena+=j
-    for i in range (len(cadena)-1, -1,-1): #para i en el rango de la longitud de cadena, empieza en -1, avanza hasta -1 con saltos de -1
-        texto+=(cadena[i])
-    for e in texto:
-        if e != espacios:
-            acum+=e
-    if acumcadena==acum:
-        print ("es palíndromo")
-    else:
-        print ("no es palindromo")
-    return ""
-print (palindromo ("se es o no se es"))
+# def palindromo (cadena):
+#     texto=""
+#     espacios=" "
+#     acum=""
+#     acumcadena=""
+#     for j in cadena:
+#         if j != espacios:
+#             acumcadena+=j
+#     for i in range (len(cadena)-1, -1,-1): #para i en el rango de la longitud de cadena, empieza en -1, avanza hasta -1 con saltos de -1
+#         texto+=(cadena[i])
+#     for e in texto:
+#         if e != espacios:
+#             acum+=e
+#     if acumcadena==acum:
+#         print ("es palíndromo")
+#     else:
+#         print ("no es palindromo")
+#     return ""
+# print (palindromo ("se es o no se es"))
 
 
 #CLASE
@@ -152,3 +152,32 @@ print (palindromo ("se es o no se es"))
 #         lista.append (i)
 
 # print (lista)
+
+#10
+
+# número que es igual a la suma de sus propios dígitos elevados cada uno a la potencia del número total de dígitos que tiene.
+
+# def es_armstrong (num):
+#     num=str(num)
+#     if len(num[0])**3 == num[0] and  len(num[1])**3 == num[1] and len(num[1])**3 == num[1]:
+#         print ("Es armstrong")
+#     else:
+#         print ("No es armstrong")
+#     return ""
+
+# print (es_armstrong (153))
+
+# def numAmstrong(num):
+#     num=str(num)
+#     suma=0
+#     for i in num:
+#         digito=int(i)**(len(num))
+#         suma+=digito
+#     if suma==int(num):
+#         print(num, "Es un numero de Amstrong")
+#     else:
+#         print(num, "No es un numero de Amstrong")
+#     return suma
+
+# print(numAmstrong(num=(int(input("Dime un numero: "))))) #sus propios dígitos, elevados cada uno a la po sus propios dígitos, elevados cada uno a la po
+
