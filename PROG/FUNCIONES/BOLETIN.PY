@@ -32,18 +32,21 @@
 
 # convertir_camelCase("hola mundo cruel")
 
-# #3
+# # #3
 
-# numeros="1234567890"
-# cadena= "ew32q133asa"
+# def suma_num (cadenanum):
+#         acum="0"
+#         acumnumero=0
+#         for i in cadenanum:
+#                 if i in "1234567890":
+#                         acum+=i
+#                 else:
+#                         acumnumero+=int(acum)
+#                         acum="0" #acum vuelve a cero para no empezar a acumular los numeros de nuevo, y dé las sumas bien.
+#         return acumnumero+int(acum)
 
-# numerosfuera=""
 
-# for i in cadena:
-#     if i in numeros:
-#         numerosfuera+=i
-
-# int (numerosfuera)
+# print (suma_num ("23a2"))
     
 #4
 
@@ -214,21 +217,79 @@
 
 #14
 
-#15
+# #15
 
-def contar_vocales (palabra):
-    lista=["a","e","i","o","u"]
-    acum=0
-    if lista[0] in palabra:
-            acum+=1
-    if lista [1] in palabra:
-            acum+=1
-    if lista [2] in palabra:
-            acum+=1
-    if lista [3] in palabra:
-            acum+=1
-    if lista [4] in palabra:
-            acum+=1
-    print (acum)
-    return acum
-contar_vocales("abaco")
+# def contar_vocales (palabra):
+#     lista=["a","e","i","o","u"]
+#     acum=0
+#     if lista[0] in palabra:
+#             acum+=1
+#     if lista [1] in palabra:
+#             acum+=1
+#     if lista [2] in palabra:
+#             acum+=1
+#     if lista [3] in palabra:
+#             acum+=1
+#     if lista [4] in palabra:
+#             acum+=1
+#     print (acum)
+#     return acum
+# contar_vocales("abaco")
+
+#16
+
+# def contar_letras (palabra):
+#     acum=0
+#     i="asdfghjklñwertyuiopqzxcvbnm"
+#     for i in palabra: 
+#         acum+=1
+#     print (acum)
+#     return acum
+# contar_letras("abaco")
+# contar_letras("hamburguesa")
+
+# #17
+
+# #poner vocales en un acumulador y consonantes en otro
+
+# def es_ordenado (cadena):
+#     acum=""
+#     acumcons=""
+#     for i in cadena:
+#         if i== " ":
+#             i=""
+#         elif i=="a":
+#             acum+=i
+#         elif i=="e":
+#             acum+=i
+#         elif i=="i":
+#             acum+=i
+#         elif i=="o":
+#             acum+=i
+#         elif i=="u":
+#             acum+=i
+#         else:
+#             acumcons+=i
+#     print (f"{acumcons} {acum}")
+
+# es_ordenado ("curso de programacion")
+
+# #18
+
+# def num_palabras (cadena):
+#     cadena=cadena.split()
+#     print (len(cadena))
+# num_palabras ("hola me llamo antonio")
+
+#clase
+
+def palabra_escondida(palabra,palabraescondida):
+    acum=""
+    for i in palabra:
+        for e in palabraescondida:
+            if e==i:
+                acum+=e
+    if palabraescondida in acum:
+        print ("Hola")
+
+palabra_escondida("supercalifragilisticoespialidoso","rapido")
