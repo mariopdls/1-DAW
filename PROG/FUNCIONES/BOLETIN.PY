@@ -281,15 +281,16 @@
 #     print (len(cadena))
 # num_palabras ("hola me llamo antonio")
 
-#clase
+# #clase
 
-def palabra_escondida(palabra,palabraescondida):
-    acum=""
-    for i in palabra:
-        for e in palabraescondida:
-            if e==i:
-                acum+=e
-    if palabraescondida in acum:
-        print ("Hola")
+# def palabra_escondida(palabra,palabraescondida):
+#     acum=""
+#     for i in palabra:
+#         for e in palabraescondida:
+#             if e==i:
+#                 acum+=e
+#     if palabraescondida in acum:
+#         print ("Hola")
 
-palabra_escondida("supercalifragilisticoespialidoso","rapido")
+# palabra_escondida("supercalifragilisticoespialidoso","rapido")
+
