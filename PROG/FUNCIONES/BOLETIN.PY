@@ -217,6 +217,42 @@
 
 #14
 
+#   Ejercicio 14
+
+# def buscar_y_reemplazar(frase_original, palabra_buscada, palabra_reemplazo, numero_sustituciones = 1):
+#     buscada_lower = palabra_buscada.lower()
+#     resultado_final = ""
+#     palabra_actual = ""
+#     contador_sust = 0
+    
+#     for i in frase_original:
+#         if i != " ":
+#             palabra_actual += i
+#         else:
+#             if palabra_actual.lower() == buscada_lower and contador_sust < numero_sustituciones:
+#                 resultado_final += palabra_reemplazo
+#                 contador_sust += 1
+#             else:
+#                 resultado_final += palabra_actual
+#             resultado_final += i
+#             palabra_actual = ""
+
+#     if palabra_actual.lower() == buscada_lower and contador_sust < numero_sustituciones:
+#         resultado_final += palabra_reemplazo
+#         contador_sust += 1
+#     else:
+#         resultado_final += palabra_actual
+#     return resultado_final
+
+# frase = "El perro es un animal y el perro es amigable."
+# buscar = "perro"
+# reemplazar = "gato"
+
+# print("Original:", frase)
+# print("Reemplazos 1:", buscar_y_reemplazar(frase, buscar, reemplazar))
+# print("Reemplazos 2:", buscar_y_reemplazar(frase, buscar, reemplazar, 2))
+# print("Reemplazos infinitos:", buscar_y_reemplazar(frase, buscar, reemplazar, 5))
+    
 # #15
 
 # def contar_vocales (palabra):
