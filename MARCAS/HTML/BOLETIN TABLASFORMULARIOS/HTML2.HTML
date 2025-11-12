@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<h3>Rellena tu CV</h3>
+
+<form action="/insertar_cv.php" method="GET">
+  <div>
+      <label for="name"> Nombre</label>
+      <br>
+      <input type="text" id="name" name="name">
+  </div>
+  <div>
+      <label for="lastname">Apellidos</label>
+      <br>
+      <input type="text" id="lastname" name="lastname" maxlength="80">
+  </div>
+  <div>
+      <label for="password">Contraseña</label>
+      <br>
+      <input type="password" id="password" name="password" maxlength="10">
+  </div>
+  <div>
+      <label for="dni">DNI</label>
+      <br>
+      <input type="text" id="dni" name="dni" maxlength="9">
+  </div>
+  <div>
+    <label for="Sexo">Sexo</label>
+    <br>
+    <input type="radio" id="hombre" name="hombre"> Hombre
+    <br>
+    <input type="radio" id="mujer" name="mujer"> Mujer
+  </div>
+
+  <div>
+    <label for="img">Incluir mi foto</label>
+   <input type="file" id=cv name= "foto" accept=".pdf,.doc"> 
+  </div>
+
+  <div>
+    <input type="checkbox" id="novedades" name="novedades" checked>
+    <label for="img">Suscribirme al boletín de novedades</label>
+  </div>
+</form>
