@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Fondo blanco */
+}
+
+header {
+    background-color: #333; /* Fondo oscuro para el encabezado */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex; /* Usamos Flexbox para crear un diseño de dos columnas */
+}
+
+.sidebar {
+    width: 25%; /* La barra lateral ocupa un cuarto de la pantalla */
+    background-color:#D999E9;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    padding-bottom: 80%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+.content {
+    width: 75%; /* El contenido principal ocupa el resto de la pantalla */
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo gris claro para el contenido */
+}
+
+footer {
+    background-color: #888; /* Gris para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: black;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 20px; ;
+}
+
+
+.boton1 {
+    background-image: url("image2.jpeg");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position:  20px 10px;
+    padding: 43px;
+    border-radius: 7%;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.boton2 {
+    background-image: url('image3.jpeg');
+    background-size: 29px 40px;
+    background-repeat: no-repeat;
+    background-position: 25px 10px;
+    padding: 40px;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+.boton3 {
+    background-image: url('image4.jpeg');
+    background-size: 30px 35px;
+    background-repeat: no-repeat;
+    background-position: 25px 10px;
+    padding:40px;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+.buttoncito {
+    background-color: transparent; /* Fondo transparente */
+    color: #000; /* Ajusta el color del texto, si es necesario */
+}
