@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,15 +5,9 @@ body {
     background-color: white; /* Fondo blanco */
 }
 
-header {
-    background-color: #333; /* Fondo oscuro para el encabezado */
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
 
 .main-container {
-    display: flex; /* Usamos Flexbox para crear un diseño de dos columnas */
+    display: flex; 
 }
 
 .sidebar {
@@ -29,10 +22,26 @@ header {
 }
 
 .content {
-    width: 75%; /* El contenido principal ocupa el resto de la pantalla */
+    width: 75%; 
     padding: 20px;
-    background-color: #f4f4f4; /* Fondo gris claro para el contenido */
+    background-color: #f4f4f4;
 }
+
+
+p {
+    color: black;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 20px; ;
+}
+
+.content {
+    background-color: #ffffff;
+}
+
+/* Footer */
+
 
 footer {
     background-color: #888; /* Gris para el pie de página */
@@ -43,14 +52,36 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.footer{
 
-p {
-    color: black;
-    text-align: left;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: small;
-    margin: 20px; ;
+    padding: 25px;
+    background-color: hsl(0, 0%, 91%);
+    
 }
+
+.direccionfoot{
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+.contactofoot {
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+.derechos {
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+
+/* botones */
 
 
 .boton1 {
@@ -62,6 +93,7 @@ p {
     border-radius: 7%;
     cursor: pointer;
     font-size: 10px;
+    margin: 15px;
 }
 
 .boton2 {
@@ -72,6 +104,7 @@ p {
     padding: 40px;
     border-radius: 7%;
     cursor: pointer;
+        margin: 15px;
 }
 
 .boton3 {
@@ -82,9 +115,52 @@ p {
     padding:40px;
     border-radius: 7%;
     cursor: pointer;
+    margin: 15px;
 }
 
 .buttoncito {
-    background-color: transparent; /* Fondo transparente */
-    color: #000; /* Ajusta el color del texto, si es necesario */
+    background-color: white; 
+    color: #000; 
+    margin: 20px;
+    padding-block: 20px;
+}
+
+
+/* Imagenes */
+
+.imagenizq{
+
+    width: 140px;
+    height: 140px;
+    float: left;
+    padding: 10px;
+}
+
+.imagen5{
+    border-radius: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*Contenedor */
+
+.caja {
+  width: 440px;
+  height: 300px;
+  background: #eed7f1;
+  border-radius: 20px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  margin-top: 2%;
+  margin-left: 10%;
 }

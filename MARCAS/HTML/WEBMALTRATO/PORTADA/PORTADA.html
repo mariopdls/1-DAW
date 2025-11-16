@@ -4,31 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de ejemplo</title>
-    <link rel="stylesheet" href="style.css"> <!-- Vinculando el archivo CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main-container">
         <label for="portada"></label>
-        <aside class="sidebar">
-            <img src="image1.png" height="120" style="margin: 20px;"> 
-            <input type="button" id="buttoncito" name="buttoncito" class="buttoncito" value="¿Quiénes somos?">
+            <aside class="sidebar">
+                <div>
+                    <label for="logo"></label>
+                    <img src="image1.png" height="120" style="margin: 20px;" id="logo" name="logo"> 
+                    <h1 style="margin: 20px;">Vidas libres, <br>voces valientes.</h1>      
+                </div>      
 
-            <h1 style="margin: 20px;">Vidas libres, <br>voces valientes.</h1>
-            <p>Que todas tengamos voz.</p>
-            <input type="button" class= boton1 id="button1" name="button1" >
-            <input type="button" class="boton2" id="button2" name="button2">
-            <input type="button" class="boton3" id="button3" name="button3">
+                <div>
+                    <label for="Quienessomos"></label>
+                    <input type="button" id="buttoncito" name="buttoncito" class="buttoncito" value="¿Quiénes somos?">
+                    <p>Que todas tengamos voz.</p>
+                </div>
 
-        </aside>
+                <div>
+                    <label for="botonesancla"></label>
+                    <input type="button" class= boton1 id="button1" name="button1" >
+                    <input type="button" class="boton2" id="button2" name="button2">
+                    <input type="button" class="boton3" id="button3" name="button3">
+                </div>
+            </aside>
 
         <main class="content">
-            <h2>Contenido principal</h2>
-            <p>Este es el área principal de la página.</p>
+                <div>
+                    <label for="descripcion"></label>
+                    <img src="image5.png" class=imagen5 id="punios" name="punios">
+                    <h3 style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:140% ;"">Nuestra misión, guiada por la empatía y la justicia, crea un refugio de apoyo y esperanza. Descubre la fuerza de las mujeres y el poder de una comunidad unida contra la violencia de género.</h3>
+                </div>
+               
+                <br> 
+
+                <div> 
+                    <label for="colaboradores"></label>
+                    <h3 style="text-align: center;">Empresas colaboradoras:</h3>
+                    <img id="colaboradores" name="colaboradores" src="image6.jpeg" class="imagen6">
+                </div>
+                
+                <div>
+                    <label for="definicion"></label>
+                    <h2 style="text-align: center; text-decoration: underline; font-size: 300%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ">¿Qué es la violencia de género?</h2>
+                    <p style="text-align: center; margin-top: -3%; font-size: 100%;color: gray;">Encuentra apoyo en los recursos que te ofrecemos:</p>
+                </div>
+                <div>
+                    <label for="recursosayuda">
+                        <div class="caja">
+                            <img src="image7.png" alt="imagenayuda" >
+                        </div>
+                        <div class="caja">
+                            <img src="image8.png" alt="">
+                        </div>
+                        <div class="caja">
+                            <img src="image9.png" alt="imagenexp" width="250">
+                        </div>
+                        <div class="caja">
+                            <img src="image10.png" width="200">
+                        </div>
+                    </label>
+                </div>
         </main>
     </div>
 
-    <footer>
-        <p>Pie de página</p>
+    <footer class="footer">
+        <div>
+            <img src="image1.png" class="imagenizq">
+        </div>
+
+        <div>
+            <section class="direccionfoot"><strong>Dirección</strong><br> <br> C/ Manuel de Rodas, 34 <br> La Rinconada <br>41309 <br>(Sevilla)</section>
+            <section class="contactofoot"> <strong>Contacto</strong><br> <br> vidaslibres@figma.com <br> Instagram: vidaslibres <br>X: vidaslibres <br>Formulario de contacto</section>
+            <section class="derechos"> Todos los derechos reservados
+        </div>
     </footer>
+
 </body>
 </html>
