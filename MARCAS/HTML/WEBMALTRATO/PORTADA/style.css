@@ -157,10 +157,10 @@ footer {
   background: #eed7f1;
   border-radius: 20px;
   color: white;
-  display: inline-flex;
+  display: flex; flex-direction:column;
   justify-content: center;
   align-items: center;
   margin: 3%;
   margin-top: 2%;
-  margin-left: 10%;
+  margin-left: 50%;
 }
