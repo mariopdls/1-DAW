@@ -15,7 +15,7 @@ body {
     background-color:#D999E9;
     color: rgb(255, 255, 255);
     padding: 15px;
-    padding-bottom: 45%;
+    padding-bottom: 300%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     
@@ -88,4 +88,25 @@ footer {
     height: 140px;
     float: left;
     padding: 10px;
+}
+
+
+/*contenedor 2*/
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-around; /* separa de forma uniforme */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 120px; /* ajusta a tu gusto */
+    height: auto;
+    display: block;
+    margin: 0 auto;z
 }

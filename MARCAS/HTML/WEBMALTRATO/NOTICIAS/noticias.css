@@ -15,7 +15,7 @@ body {
     background-color:#D999E9;
     color: rgb(255, 255, 255);
     padding: 15px;
-    padding-bottom: 45%;
+    padding-bottom: 200%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     
@@ -89,3 +89,5 @@ footer {
     float: left;
     padding: 10px;
 }
+
+
