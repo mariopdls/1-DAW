@@ -6,33 +6,129 @@
     <title>Página de ejemplo</title>
     <link rel="stylesheet" href="pideayuda.css">
 </head>
+
 <body>
     <div class="main-container">
+
         <label for="portada"></label>
-            <aside class="sidebar">
-                <div>
-                    <label for="logo"></label>
-                    <img src="image1.png" height="120" style="margin: 20px;" id="logo" name="logo"> 
-                    <h1 style="margin: 20px; font-size: 30px;">Pide ayuda.</h1>      
-                    <h4 style="margin-left: 20px; color: black;">Volver a inicio</h4>
-                </div>  
-            </aside>
 
-            <div class="puntovioleta">
-                <label for="puntovioleta"> </label>
-                <h1 style="text-align: center; margin-top: 50px; text-decoration: underline;">Puntos Violeta en La Rinconada</h1>
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=15Ajke_IJlrp_luwgeQ4WyxBgRmjRO7M&ehbc=2E312F" width="640" height="480" style="display: block; margin: auto;"></iframe>
-                <p style="text-align:center ; margin-left: 200px; margin-right: 200px ;"> Si alguna vez necesitas ayuda o información, puedes acercarte al Punto Violeta más cercano —no solo en tu municipio, sino también en otros lugares—, donde personal especializado te escuchará y te acompañará de forma confidencial.</p>
-                <br><br><br>
-                <h1 style="text-align: center; margin-top: 50px; text-decoration: underline;">Teléfonos de emergencia</h1>
-                <p style="text-align: center;""> Encuentra apoyo en los recursos que te ofrecemos:</p>
-                <img src="Badge_of_the_National_Police_Corps_of_Spain.svg" style="width: 150px; margin-left: 200px;">
-                <img src="Escudo_Oficial_Guardia_Civil.svg" style="width: 140px; margin-left: 100px;">
-                <img src="016.png"style="width: 160px; margin-left: 150px;">
-                <img src="061.png"style="width: 250px; margin-left: 90px;">
-            </div>
+        <aside class="sidebar">
+            <div>
+                <label for="logo"></label>
+                <img src="image1.png" height="120" id="logo" name="logo" class="logo-img"> 
+                <h1 class="sidebar-title">Pide ayuda.</h1>      
+                <h4 class="volver-inicio">Volver a inicio</h4>
+            </div>  
+        </aside>
+        
 
+        <div class="puntovioleta">
+            <label for="puntovioleta"></label>
 
+            <h1 class="section-title">Puntos Violeta en La Rinconada</h1>
+
+            <iframe 
+                src="https://www.google.com/maps/d/u/0/embed?mid=15Ajke_IJlrp_luwgeQ4WyxBgRmjRO7M&ehbc=2E312F" 
+                width="640" height="480" 
+                class="mapa">
+            </iframe>
+
+            <p class="texto-centro ancho-medio">
+                Si alguna vez necesitas ayuda o información, puedes acercarte al Punto Violeta más cercano —no solo en tu municipio, sino también en otros lugares—, donde personal especializado te escuchará y te acompañará de forma confidencial.
+            </p>
+
+            <br><br><br>
+
+            <h1 class="section-title">Teléfonos de emergencia</h1>
+
+            <p class="texto-centro">Encuentra apoyo en los recursos que te ofrecemos:</p>
+
+    <div class="logos-emergencias">
+
+        <div class="logo-box">
+            <img src="Badge_of_the_National_Police_Corps_of_Spain.svg" class="logo-emer logo1">
+            <p class="logo-texto">Policía Nacional (091)</p>
+        </div>
+
+        <div class="logo-box">
+            <img src="Escudo_Oficial_Guardia_Civil.svg" class="logo-emer logo2">
+            <p class="logo-texto">Guardia Civil (062)</p>
+        </div>
+
+        <div class="logo-box">
+            <img src="016.png" class="logo-emer logo3">
+            <p class="logo-texto">Teléfono 016</p>
+        </div>
+
+        <div class="logo-box">
+            <img src="061.png" class="logo-emer logo4">
+            <p class="logo-texto">Emergencias sanitarias (061)</p>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="contenedor">
+        <div class="card">
+            <h3>Cuida lo que compartes</h3>
+            <p>Evita publicar tu ubicación, rutinas o información personal en redes. Cualquier dato puede ser usado para controlar o localizar sin tu consentimiento.</p>
+        </div>
+
+        <div class="card">
+            <h3>Guarda pruebas</h3>
+            <p>Capturas de pantalla, mensajes, audios o correos pueden ser fundamentales si decides pedir ayuda o denunciar. Guarda todo en un sitio seguro.</p>
+        </div>
+
+        <div class="card">
+            <h3>Habla por canales seguros</h3>
+            <p>Si sospechas que alguien revisa tu móvil o tus redes, usa aplicaciones con cifrado o dispositivos de confianza. La privacidad es protección.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pide ayuda siempre</h3>
+            <p>Si algo te preocupa o te hace sentir insegura, acércate a tu Punto Violeta o a cualquier recurso de apoyo. Te escuchan sin juzgar.</p>
+        </div>
+    </div>    
+
+    <div>
+        <div class="titulo-recursos">
+            <h1> Recursos para familias</h1>
+        </div>
+        <div class="texto-recursos">
+            <p>Acompañar a una mujer que sufre o ha sufrido violencia de género no siempre es fácil. A veces surgen dudas, miedo a decir algo inadecuado o simplemente el deseo de ayudar sin saber cómo hacerlo. Aquí encontrarás orientación, herramientas y contactos útiles para comprender mejor la situación, escuchar sin juzgar y actuar con respeto:</p>
+        </div>
+    </div>
+
+    <div class="recuadro-recursos">
+
+    <h2 class="titulo-recursos">Recursos</h2>
+
+    <div class="item-recurso">
+        <img src="ESPAÑA.jpg" class="icono-recurso">
+        <div>
+            <a href="#" class="recurso-titulo">Ministerio de Igualdad.</a>
+            <p class="recurso-descripcion">Gobierno de España.</p>
+        </div>
+    </div>
+
+    <div class="item-recurso">
+        <img src="foro.jpg" class="icono-recurso">
+        <div>
+            <a href="#" class="recurso-titulo">Foro relacionado.</a>
+            <p class="recurso-descripcion">Mujeres libres, mujeres en paz.</p>
+        </div>
+    </div>
+
+    <div class="item-recurso">
+        <img src="derechos.png" class="icono-recurso">
+        <div>
+            <a href="#" class="recurso-titulo">Derechos de las mujeres</a>
+            <p class="recurso-descripcion">Colaboratorias.</p>
+        </div>
+    </div>
+
+</div>
+</body>
 
     </div>
     <footer class="footer">
