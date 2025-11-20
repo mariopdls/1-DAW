@@ -1,0 +1,182 @@
+/* =========================================
+   BASE
+========================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+p {
+    color: black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 20px;
+}
+
+
+/* =========================================
+   LAYOUT GENERAL
+========================================= */
+
+.main-container {
+    display: flex;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.sidebar {
+    width: 25%;
+    background-color: #D999E9;
+    color: white;
+    padding: 35px;
+    padding-bottom: 80%;
+}
+
+.logo-img {
+    margin: 20px;
+}
+
+.titulo-sidebar {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.volver-inicio {
+    margin-left: 20px;
+    color: black;
+}
+
+
+/* =========================================
+   NOTICIAS
+========================================= */
+
+.titulo-noticia {
+    text-align: center;
+    color: #D999E9;
+}
+
+.texto-noticia {
+    margin-left: 300px;
+    margin-right: 310px;
+    text-align: center;
+}
+
+/* Noticias cortas */
+.noticias-cortas {
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.noticias-cortas-titulo {
+    margin-left: 40px;
+}
+
+.noticia-corta {
+    width: 50%;
+}
+
+.noticia-corta-subtitulo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.texto-noticia-corta {
+    margin-right: 300px;
+    text-align: justify;
+}
+
+
+/* =========================================
+   IMÁGENES
+========================================= */
+
+.imagenizq {
+    width: 140px;
+    height: 140px;
+    float: left;
+    padding: 10px;
+}
+
+.imageninfo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Imagen del BOE centrada y ajustada */
+.boe {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background-color: #888;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    padding: 25px;
+    background-color: hsl(0, 0%, 91%);
+}
+
+.direccionfoot,
+.contactofoot,
+.derechos {
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+
+/* =========================================
+   TIPOGRAFÍA Y LISTAS
+========================================= */
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+ul li {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.violenciatit {
+    text-align: center;
+}
+
+.puntos {
+    margin-left: 10px;
+    text-align: justify;
+}
