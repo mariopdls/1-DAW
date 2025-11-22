@@ -47,6 +47,7 @@ p {
 
 .logo-img {
     margin: 20px;
+    cursor: pointer;
 }
 
 .titulo-sidebar {
@@ -57,6 +58,7 @@ p {
 .volver-inicio {
     margin-left: 20px;
     color: black;
+    cursor: pointer;
 }
 
 

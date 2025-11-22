@@ -1,7 +1,6 @@
 /* --------------------------------------------------
    BASE
 -------------------------------------------------- */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +11,8 @@ body {
 p {
     color: black;
     text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: small;
     margin: 20px;
 }
@@ -20,12 +20,10 @@ p {
 /* --------------------------------------------------
    LAYOUT GENERAL
 -------------------------------------------------- */
-
 .main-container {
     display: flex;
 }
 
-/* Contenido principal */
 .content {
     width: 75%;
     padding: 20px;
@@ -35,13 +33,12 @@ p {
 /* --------------------------------------------------
    SIDEBAR
 -------------------------------------------------- */
-
 .sidebar {
     width: 25%;
     background-color: #D999E9;
     color: white;
     padding: 35px;
-    padding-bottom: 80%;
+    padding-bottom: 100%;
 }
 
 .logo-img {
@@ -62,9 +59,8 @@ p {
 }
 
 /* --------------------------------------------------
-   IMÁGENES / ELEMENTOS
+   IMÁGENES
 -------------------------------------------------- */
-
 .imagenizq {
     width: 140px;
     height: 140px;
@@ -75,7 +71,6 @@ p {
 /* --------------------------------------------------
    FOOTER
 -------------------------------------------------- */
-
 footer {
     background-color: #888;
     color: white;
@@ -101,70 +96,41 @@ footer {
 }
 
 /* --------------------------------------------------
-   CONTENIDO EDUCATIVO
+   FORMULARIO
 -------------------------------------------------- */
-
-.titulo_edu {
-    margin-left: 90px;
-    margin-top: 60px;
-    font-size: 40px;
-}
-
-.videofull {
+.formu {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-}
-
-.textoedu {
-    color: #888;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: justify;
-    font-size: 20px;
 }
 
 /* --------------------------------------------------
-   CUADRO DE CONTENIDO DESCARGABLE
+   SECCIÓN QUIÉNES SOMOS
 -------------------------------------------------- */
-
-.cuadro {
-    width: 420px;
-    margin: 70px auto;         /* centrado automático */
-    padding: 20px;
-    background: #f8f8f8;
-    border-radius: 12px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-}
-
-.cuadro h2 {
+.quienes {
     text-align: center;
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-decoration: underline;
+    margin-top: 50px;
 }
 
-.item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 18px;
+.mujeres {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }
 
-.item img {
-    width: 38px;
-    margin-right: 12px;
+.somos {
+    margin-left: 150px;
 }
 
-.item a {
-    font-weight: bold;
-    color: #000;
-    text-decoration: underline;
-    font-size: 14px;
-}
-
-.item p {
-    margin: 2px 0;
+.desc {
+    margin-left: 150px;
+    margin-right: 100px;
     color: #555;
-    font-size: 12px;
+}
+
+.Contacto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

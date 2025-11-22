@@ -39,13 +39,14 @@ p {
     background-color: #D999E9;
     color: white;
     padding: 35px;
-    padding-bottom:50%; /* repetido, conservado */
+    padding-bottom:60%; /* repetido, conservado */
 }
 
 /* Elementos del sidebar */
 
 .logo-img {
     margin: 20px;
+    cursor: pointer;;
 }
 
 .titulo-sidebar {
@@ -56,6 +57,7 @@ p {
 .volver-inicio {
     margin-left: 20px;
     color: black;
+    cursor: pointer;
 }
 
 /*  NOTICIAS */
