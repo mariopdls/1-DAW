@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white; /* Fondo blanco */
+    background-color: white; 
 }
 
 p {
@@ -15,7 +15,7 @@ p {
     margin: 20px;
 }
 
-/*  LAYOUT GENERAL */
+/*   GENERAL */
 
 .main-container {
     display: flex;
@@ -28,7 +28,7 @@ p {
 }
 
 .content {
-    background-color: #ffffff; /* repetido, conservado */
+    background-color: #ffffff; 
 }
 
 /* SIDEBAR */
@@ -39,7 +39,7 @@ p {
     background-color: #D999E9;
     color: white;
     padding: 35px;
-    padding-bottom:60%; /* repetido, conservado */
+    padding-bottom:60%; 
 }
 
 /* Elementos del sidebar */
@@ -100,7 +100,7 @@ p {
 }
 
 .texto-noticia-corta {
-    margin-left: 0;     /* ELIMINA el margen gigante */
+    margin-left: 0;     
     margin-right: 300px;
     text-align: justify;
 }
@@ -117,7 +117,7 @@ p {
 /*   FOOTER */
 
 footer {
-    background-color: #888; /* Gris para el pie de página */
+    background-color: #888; 
     color: white;
     text-align: center;
     padding: 10px;

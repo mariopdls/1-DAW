@@ -1,6 +1,4 @@
-/* --------------------------------------------------
-   BASE
--------------------------------------------------- */
+/*   BASE */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,9 +15,7 @@ p {
     margin: 20px;
 }
 
-/* --------------------------------------------------
-   LAYOUT GENERAL
--------------------------------------------------- */
+/*  GENERAL  */
 .main-container {
     display: flex;
 }
@@ -30,9 +26,7 @@ p {
     background-color: #ffffff;
 }
 
-/* --------------------------------------------------
-   SIDEBAR
--------------------------------------------------- */
+/*   SIDEBAR */
 .sidebar {
     width: 25%;
     background-color: #D999E9;
@@ -58,9 +52,7 @@ p {
     cursor: pointer;
 }
 
-/* --------------------------------------------------
-   IMÁGENES
--------------------------------------------------- */
+/*  IMÁGENES */
 .imagenizq {
     width: 140px;
     height: 140px;
@@ -68,9 +60,7 @@ p {
     padding: 10px;
 }
 
-/* --------------------------------------------------
-   FOOTER
--------------------------------------------------- */
+/*  FOOTER */
 footer {
     background-color: #888;
     color: white;
@@ -95,9 +85,7 @@ footer {
     text-align: justify;
 }
 
-/* --------------------------------------------------
-   CONTENIDO EDUCATIVO
--------------------------------------------------- */
+/*   CONTENIDO EDUCATIVO */
 .titulo_edu {
     margin-left: 90px;
     margin-top: 60px;
@@ -118,9 +106,7 @@ footer {
     font-size: 20px;
 }
 
-/* --------------------------------------------------
-   CUADRO DESCARGABLE
--------------------------------------------------- */
+/*  CUADRO DESCARGABLE */
 .cuadro {
     width: 420px;
     margin: 70px auto;
@@ -162,9 +148,7 @@ footer {
     font-size: 12px;
 }
 
-/* --------------------------------------------------
-   EXPERIENCIAS (ESTEFANÍA, ETC.)
--------------------------------------------------- */
+/*  EXPERIENCIAS */
 .estefania {
     margin-top: 100px;
     margin-left: 10px;

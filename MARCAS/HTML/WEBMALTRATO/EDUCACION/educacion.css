@@ -1,6 +1,4 @@
-/* --------------------------------------------------
-   BASE
--------------------------------------------------- */
+/* BASE */
 
 body {
     font-family: Arial, sans-serif;
@@ -17,9 +15,7 @@ p {
     margin: 20px;
 }
 
-/* --------------------------------------------------
-   LAYOUT GENERAL
--------------------------------------------------- */
+/*  GENERAL */
 
 .main-container {
     display: flex;
@@ -32,9 +28,7 @@ p {
     background-color: #ffffff;
 }
 
-/* --------------------------------------------------
-   SIDEBAR
--------------------------------------------------- */
+/*   SIDEBAR */
 
 .sidebar {
     width: 25%;
@@ -61,9 +55,7 @@ p {
     cursor: pointer;
 }
 
-/* --------------------------------------------------
-   IMÁGENES / ELEMENTOS
--------------------------------------------------- */
+/*   IMÁGENES / ELEMENTOS */
 
 .imagenizq {
     width: 140px;
@@ -72,9 +64,7 @@ p {
     padding: 10px;
 }
 
-/* --------------------------------------------------
-   FOOTER
--------------------------------------------------- */
+/*  FOOTER */
 
 footer {
     background-color: #888;
@@ -100,9 +90,7 @@ footer {
     text-align: justify;
 }
 
-/* --------------------------------------------------
-   CONTENIDO EDUCATIVO
--------------------------------------------------- */
+/*   CONTENIDO EDUCATIVO */
 
 .titulo_edu {
     margin-left: 90px;
@@ -124,13 +112,11 @@ footer {
     font-size: 20px;
 }
 
-/* --------------------------------------------------
-   CUADRO DE CONTENIDO DESCARGABLE
--------------------------------------------------- */
+/*   CUADRO DE CONTENIDO DESCARGABLE */
 
 .cuadro {
     width: 420px;
-    margin: 70px auto;         /* centrado automático */
+    margin: 70px auto;        
     padding: 20px;
     background: #f8f8f8;
     border-radius: 12px;

@@ -1,11 +1,11 @@
-/*   RESET / BASE */
+/*  BASE */
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: white;
-    background: #f4f4f4; /* (valor repetido respetado) */
+    background: #f4f4f4; 
 }
 
 p {
@@ -16,7 +16,7 @@ p {
     margin: 20px;
 }
 
-/*   LAYOUT GENERAL */
+/*    GENERAL */
 
 .main-container {
     display: flex;
@@ -58,7 +58,7 @@ p {
 }
 
 .content {
-    background-color: #ffffff; /* respeta la repetición */
+    background-color: #ffffff; 
 }
 
 .puntovioleta {

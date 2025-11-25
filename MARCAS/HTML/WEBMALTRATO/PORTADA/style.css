@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white; /* Fondo blanco */
+    background-color: white; 
 }
 
 
@@ -11,7 +11,7 @@ body {
 }
 
 .sidebar {
-    width: 25%; /* La barra lateral ocupa un cuarto de la pantalla */
+    width: 25%; 
     background-color:#D999E9;
     color: rgb(255, 255, 255);
     padding: 15px;
@@ -44,7 +44,7 @@ p {
 
 
 footer {
-    background-color: #888; /* Gris para el pie de página */
+    background-color: #888; 
     color: white;
     text-align: center;
     padding: 10px;
@@ -163,3 +163,4 @@ footer {
   margin-top: 2%;
   margin-left: 33%;
 }
+
