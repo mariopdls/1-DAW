@@ -1,0 +1,122 @@
+/*  BASE */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+p {
+    color: black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 20px;
+}
+
+/*   GENERAL */
+.main-container {
+    display: flex;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/*   SIDEBAR  */
+.sidebar {
+    width: 25%;
+    background-color: #D999E9;
+    color: white;
+    padding: 35px;
+    padding-bottom: 100%;
+}
+
+.logo-img {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.titulo-sidebar {
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.volver-inicio {
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+/*  IMÁGENES */
+.imagenizq {
+    width: 140px;
+    height: 140px;
+    float: left;
+    padding: 10px;
+}
+
+/*  FOOTER */
+footer {
+    background-color: #888;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    padding: 25px;
+    background-color: hsl(0, 0%, 91%);
+}
+
+.direccionfoot,
+.contactofoot,
+.derechos {
+    float: left;
+    margin: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+/*  FORMULARIO */
+.formu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  SECCIÓN QUIÉNES SOMOS  */
+.quienes {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mujeres {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.somos {
+    margin-left: 150px;
+}
+
+.desc {
+    margin-left: 150px;
+    margin-right: 100px;
+    color: #555;
+}
+
+.Contacto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
