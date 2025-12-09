@@ -1,0 +1,77 @@
+h1#titulo {
+    color: #8496a9;
+}
+
+#susrojo {
+    color: red;
+}
+
+.destacado {
+    color: rgb(181, 181, 73);
+}
+
+#subtitulo {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+em {
+    color: blue;
+}
+
+.especial {
+    color: purple;
+}
+
+caption {
+    color: blue;
+}
+
+thead th.especial {
+    color: rgb(211, 211, 110);
+}
+
+tbody .especial {
+    color: rgb(211, 211, 110);
+}
+
+th {
+    color: red;
+}
+
+td {
+    color: green;
+}
+
+tr strong {
+    color: rgb(211, 211, 110);
+}
+
+tr em {
+    color: blue;
+}
+
+#adicional {
+    color: greenyellow;
+}
+
+p #especial {
+    color: darkmagenta;
+}
+
+p a {
+    color: green;
+}
+
+th,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
