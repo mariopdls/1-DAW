@@ -136,67 +136,24 @@
 #     print (fila)
 
 
-# A = [
-#     [1, 2, 3],
-#     [4, 5, 6],
-#     [7, 8, 9],
-#     [1, 1, 1]
-# ]
-
-# B = [
-#     [9, 9, 9],
-#     [3, 3, 3],
-#     [2, 2, 2],
-#     [5, 5, 5]
-# ]
-
-# resultado= []
-
-# for i in range (len(A)): #Longitud de las filas
-#     filanueva=[]
-#     for e in range (len(A[0])): #longitud de las columnas
-#         suma= A[i][e]+B[i][e]
-#         filanueva.append(suma)
-#     resultado.append(filanueva)
-
-# for fila in resultado:
-#     print (fila)
-
-
-#sumar solo la segunda fila
-
-# A = [
-#     [1, 1, 1],
-#     [2, 2, 2],
-#     [3, 3, 3]
-# ]
-
-# B = [
-#     [5, 5, 5],
-#     [6, 6, 6],
-#     [7, 7, 7]
-# ]
-
-# fila=[]
-# for i in range (len(A[2])):
-#     suma=A[2][i] + B[2][i]
-#     fila.append(suma)
-# print (fila)
-
-# columna=[]
-# for i in range(len(A)):
-#     suma= A[i][2] + B[i][2]
-#     columna.append(suma)
-# print (columna)
-
-A = [
+matriz1 = [
     [1, 2, 3],
     [4, 5, 6],
-    [7, 8]         # esta fila está mal
+    [7, 8, 9],
+    [1, 1, 1]
 ]
 
-for i in range (len(A)):
-    if len(A[i])== len(A[0]):
-        print ("Es correcto")
-    else:
-        print ("Es incorrecto")
+matriz2 = [
+    [9, 9, 9],
+    [3, 3, 3],
+    [2, 2, 2],
+    [5, 5, 5]
+]
+
+def suma_matrices (a,b):
+    nueva_lista=[]
+    for i in range(len(a)):
+        for e in range(len(a[0])):
+            resultado=matriz1[i][e]+matriz2[i][e]
+            nueva_lista.append(resultado) 
+    print (nueva_lista)
