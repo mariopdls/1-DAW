@@ -1,0 +1,11 @@
+#galeria{
+    display:flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+img  {
+    border: solid 5px;
+    color: rgb(255, 255, 255);
+    outline: 2px solid rgb(174, 174, 174);
+}
