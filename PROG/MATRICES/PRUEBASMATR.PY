@@ -136,24 +136,25 @@
 #     print (fila)
 
 
-matriz1 = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [1, 1, 1]
-]
+# matriz1 = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9],
+#     [1, 1, 1]
+# ]
 
-matriz2 = [
-    [9, 9, 9],
-    [3, 3, 3],
-    [2, 2, 2],
-    [5, 5, 5]
-]
+# matriz2 = [
+#     [9, 9, 9],
+#     [3, 3, 3],
+#     [2, 2, 2],
+#     [5, 5, 5]
+# ]
 
-def suma_matrices (a,b):
-    nueva_lista=[]
-    for i in range(len(a)):
-        for e in range(len(a[0])):
-            resultado=matriz1[i][e]+matriz2[i][e]
-            nueva_lista.append(resultado) 
-    print (nueva_lista)
+# def suma_matrices (a,b):
+#     nueva_lista=[]
+#     for i in range(len(a)):
+#         for e in range(len(a[0])):
+#             resultado=matriz1[i][e]+matriz2[i][e]
+#             nueva_lista.append(resultado) 
+#     print (nueva_lista)
+
