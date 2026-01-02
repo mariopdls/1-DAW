@@ -26,21 +26,21 @@
 
 #ej3
 
-def sumanumeros (cadena):
-    numeros="1234567890"
-    acum="0"
-    lista=[]
-    for i in range (len(cadena)):
+# def sumanumeros (cadena):
+#     numeros="1234567890"
+#     acum="0"
+#     lista=[]
+#     for i in range (len(cadena)):
         
-        if cadena[i].isdigit():
-            acum+=cadena[i]
+#         if cadena[i].isdigit():
+#             acum+=cadena[i]
 
-        elif cadena[i].isalpha():
-            if acum!="0":
-                lista.append(int(acum))
-                acum="0"
-    lista.append(int(acum))
+#         elif cadena[i].isalpha():
+#             if acum!="0":
+#                 lista.append(int(acum))
+#                 acum="0"
+#     lista.append(int(acum))
 
-    print (sum(lista))
+#     print (sum(lista))
 
-sumanumeros("abc12x3y45")
+# sumanumeros("abc12x3y45")
